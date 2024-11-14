@@ -2,11 +2,15 @@
 
 Tutorial on SmartNICs for Supercomputing 2024
 
-**Held on**: November 17th, 8:30 AM - 12:00 PM Eastern Standard Time
+**Held on**: November 17th, 8:30 AM - 12:00 PM Eastern Standard Time; [Room B207](https://sc24.conference-program.com/map/?location=rB207)
 
 [Event website and Program](https://sc24.conference-program.com/presentation/?id=tut133&sess=sess409)
 
-![BlueField 3 SmartNIC](https://github.com/gt-crnch-rg/smartnic-tutorial-sc24/blob/master/fig/smartnic_bf3.jpg)
+![BlueField 3 SmartNIC](https://github.com/gt-crnch-rg/smartnic-tutorial-sc24/blob/2b33a3f47e94bf85083d54571c9a110bd97f93bc/fig/smartnic_bf3.jpg)
+
+## Mentimeter Audience Survey
+
+Please take our survey using [this Mentimeter link](https://www.menti.com/aljr5bmzi3wc).
 
 ## Presenters
 
@@ -19,15 +23,16 @@ Tutorial on SmartNICs for Supercomputing 2024
 
 Supporting Contributors:
 
-* Muhammad Usman [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
+* Clay Hughes [Sandia National Laboratories]()
+* Muhammad Usman, Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
 * Oscar Hernandez [(Oak Ridge National Laboratory)](ornl.gov)
-* Dmitry Pekurovsky [(NVIDIA)](nvidia.com)
-* Sara Karamati, Maw Hawkins [Georgia Tech](https://hpcgarage.org/wp/)
+* Sara Karamati [Georgia Tech](https://hpcgarage.org/wp/)
 
 **Abstract:** The past few years have witnessed an increased support for programmable network adapters, known as “Smart-NICs", that offer additional functionalities beyond standard packet processing capabilities. These devices often feature programmable lightweight processing cores, FPGAs, and even CPU- and GPU-based platforms capable of running separate operating systems. Their primary target has been data center operations, such as infrastructure management, packet filtering, and I/O acceleration, but are increasingly being explored for high-performance computing (HPC) application acceleration.
 
 This tutorial offers an in-depth exploration of the state-of-the-art for SmartNICs and the emerging software ecosystems supporting them. Attendees will engage in hands-on exercises to better understand how to take advantage of SmartNICs for application acceleration, including MPI collective operation offloading, OpenMP offload, system security, file I/O, and algorithmic modifications to maximize on-board processing power. Participants will have the opportunity to execute these exercises using cutting-edge SmartNICs like NVIDIA’s BlueField-3 Data Processing Unit (DPU). The tutorial presenters will discuss additional techniques for optimizing applications to harness SmartNICs as communication accelerators in HPC systems.
-Please note that you must register for the SC23 tutorial track and attend this tutorial in person.
+
+Please note that you must register for the SC24 tutorial track and attend this tutorial in person.
 
 [Register here](https://sc24.supercomputing.org/attend/registration)
 
