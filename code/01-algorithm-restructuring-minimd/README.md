@@ -24,8 +24,8 @@ Terminal 1 (Host):
 [user@rg-login]$ ssh dash3
 [user@dash3]$ cd <minimd-sample-folder>/mini-md-force-on-bf
 #Load the right version of HPC-X and associated modules for MPI
-[user@dash3]$ ../scripts/gatech_cluster_set_env.sh
-[user@dash3]$ make openmpi && mv miniMD_openmpi_ minimd-host.exe && make clean
+[user@dash3]$ source ../scripts/gatech_cluster_set_env.sh
+[user@dash3]$ make clean && make openmpi && mv miniMD_openmpi_ minimd-host.exe
 ```
 
 Terminal 2 (BF3):
@@ -34,8 +34,8 @@ Terminal 2 (BF3):
 [user@rg-login]$ ssh dash3-bf3-1
 [user@dash3-bf3-1]$ cd <minimd-sample-folder>/mini-md-force-on-bf
 #Load the right version of HPC-X and associated modules for MPI
-[user@dash3-bf3-1]$ ../scripts/gatech_cluster_set_env.sh
-[user@dash3-bf3-1]$ make openmpi && mv miniMD_openmpi_ minimd-bf.exe
+[user@dash3-bf3-1]$ source ../scripts/gatech_cluster_set_env.sh
+[user@dash3-bf3-1]$ make clean && make openmpi && mv miniMD_openmpi_ minimd-bf.exe
 ```
 
 ### Running the Sample

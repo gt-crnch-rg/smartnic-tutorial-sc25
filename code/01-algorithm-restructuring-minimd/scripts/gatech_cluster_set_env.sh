@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Execute this script to set your environment on each machine to run the heterogeneous MiniMD example
+# Source this script to set your environment on each machine to run the heterogeneous MiniMD example
 
 # Query Architecture
 arch=$(uname -i)
