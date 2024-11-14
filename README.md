@@ -3,7 +3,7 @@
 Tutorial on SmartNICs for Supercomputing 2024
 
 
-**Held on**: November 17th, 8:30 AM - 12:00 PM Eastern Standard Time
+**Held on**: November 17th, 8:30 AM - 12:00 PM Eastern Standard Time; [Room B207](https://sc24.conference-program.com/map/?location=rB207)
 
 [Event website and Program](https://sc24.conference-program.com/presentation/?id=tut133&sess=sess409)
 
