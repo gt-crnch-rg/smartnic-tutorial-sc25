@@ -23,10 +23,10 @@ Please take our survey using [this Mentimeter link](https://www.menti.com/aljr5b
 
 Supporting Contributors:
 
-* Clay Hughes [Sandia National Laboratories]()
+* Clay Hughes [(Sandia National Laboratories)]()
 * Muhammad Usman, Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
 * Oscar Hernandez [(Oak Ridge National Laboratory)](ornl.gov)
-* Sara Karamati [Georgia Tech](https://hpcgarage.org/wp/)
+* Sara Karamati [(Georgia Tech)](https://hpcgarage.org/wp/)
 
 **Abstract:** The past few years have witnessed an increased support for programmable network adapters, known as “Smart-NICs", that offer additional functionalities beyond standard packet processing capabilities. These devices often feature programmable lightweight processing cores, FPGAs, and even CPU- and GPU-based platforms capable of running separate operating systems. Their primary target has been data center operations, such as infrastructure management, packet filtering, and I/O acceleration, but are increasingly being explored for high-performance computing (HPC) application acceleration.
 
@@ -53,3 +53,7 @@ Please note that you must register for the SC24 tutorial track and attend this t
 ## Hands-on Examples
 
 Please see the examples under the `/code` folder. The tutorial slides will have additional details on running and interacting with each example.
+
+## Slides
+
+Please see the tutorial slides under the [slides folder]().
