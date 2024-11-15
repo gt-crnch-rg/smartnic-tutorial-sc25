@@ -40,6 +40,7 @@ The execution script requests the nodes itself.
 #Please change: ./task_<*/build/executable>; e.g ./task_a/build/hello
 [user@rg-login]$ sbatch --export=LIB_ ./run_task.sh ./task_<*/build/executable>
 #Result: Submitted batch job 14170
+#Note that all tasks can be executed consecutively using the same service
 [user@rg-login]$ cat task-14170.out
 #Kill the service
 [user@rg-login]$ scancel 14014
