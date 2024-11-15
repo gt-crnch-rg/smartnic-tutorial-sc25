@@ -9,14 +9,53 @@ This code sample demonstrates how to compile ODOS-enabled applications with the 
 
 Please refer to the example folders for further details on how to run them. However, the general instructions are provided below.
 
-## Manual process
+## Automated compilation and running using SLURM (Recomended way)
+
+Two scripts are provided for the automated compilation of all tasks and the execution of a task.
+
+### Compilation
+
+```
+[user@rg-login]$ cd code/04-openmp-offload-dpu
+#Note you should select a number between 1 and 4 for node number
+$ ./request_bf3_heterogenous_slurm_job.sh 3
+#The rest of the following instructions assume that the node 3 was requested.
+[user@dash3]$ source /etc/profile
+[user@dash3]$ module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
+[user@dash3]$ module load odos-dpu cmake
+[user@dash3]$ ./clean.sh
+[user@dash3]$ ./compile.sh
+[user@dash3]$ exit
+```
+
+### Execution
+
+The execution script requests the nodes itself.
+
+```
+#This env variable declaration is needed for task_c
+[user@rg-login]$ export LIB_=./task_c/build
+#Note you should select a number between 1 and 4 for node number
+[user@rg-login]$ ./run_service.sh 3
+#Good result: Submitted batch job 14014 (it will be killed in 10 minutes)
+#Please change: ./task_<*/build/executable>; e.g ./task_a/build/hello
+[user@rg-login]$ sbatch --export=LIB_ ./run_task.sh ./task_<*/build/executable>
+#Result: Submitted batch job 14170
+[user@rg-login]$ cat task-14170.out
+#Kill the service
+[user@rg-login]$ scancel 14014
+```
+
+## Manual process (alternative way)
+
+We highly recommend that you open two terminals or use a screen/tmux session to allow logging into the host and BF3 nodes.
 
 ### Request resources
 
-First you need to request an interactive node to compile the example code and run it. We highly recommend that you open two terminals or use a screen/tmux session to allow logging into the host and BF3 nodes.
+First you need to request an interactive node to compile the example code and run it.
 
 ```
-[user@rg-login]$ cd 04-openmp-offload-dpu
+[user@rg-login]$ cd code/04-openmp-offload-dpu
 #Note you should select a number between 1 and 4 for node number
 $ ./request_bf3_heterogenous_slurm_job.sh 3
 #The rest of the instructions assume that the node 3 was requested.
@@ -67,40 +106,3 @@ Terminal 1 (Host):
 ### Wrap-up
 
 Kill the service on the BF3 system and you can move on to the next task folder and start again from [compilation](### Compile a sample).
-
-## Automated compilation and running using SLURM
-
-Two scripts are provided for the automated compilation of all tasks and the execution of a task.
-
-### Compilation
-
-```
-[user@rg-login]$ cd 04-openmp-offload-dpu
-#Note you should select a number between 1 and 4 for node number
-$ ./request_bf3_heterogenous_slurm_job.sh 3
-#The rest of the following instructions assume that the node 3 was requested.
-[user@dash3]$ source /etc/profile
-[user@dash3]$ module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
-[user@dash3]$ module load odos-dpu cmake
-[user@dash3]$ ./clean.sh
-[user@dash3]$ ./compile.sh
-[user@dash3]$ exit
-```
-
-### Execution
-
-The execution script requests the nodes itself.
-
-```
-# This env variable declaration is needed for task_c
-[user@rg-login]$ export LIB_=./task_c/build
-#Note you should select a number between 1 and 4 for node number
-[user@rg-login]$ ./run_service.sh 3
-#Good result: Submitted batch job 14014 (it will be killed in 10 minutes)
-#Please change: ./task_<*/build/executable>; e.g ./task_a/build/hello
-[user@rg-login]$ sbatch --export=LIB_ ./run_task.sh ./task_<*/build/executable>
-#Result: Submitted batch job 14170
-[user@rg-login]$ cat task-14170.out
-#Kill the service
-[user@rg-login]$ scancel 14014
-```

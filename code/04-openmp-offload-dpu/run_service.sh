@@ -19,9 +19,7 @@ sbatch --export=LIB_ <<EOT
 #SBATCH --cpus-per-task 8
 #SBATCH --time 0:10:00
 
-# example: ./run_service 3
-
-# the following line is for task c
+# The following line is only for task c
 if [ -n "$LIB_" ]; then
         echo "lib path: $LIB_"
         export LD_LIBRARY_PATH=$LIB_/aarch64:$LD_LIBRARY_PATH

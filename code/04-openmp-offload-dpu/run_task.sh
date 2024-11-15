@@ -7,7 +7,7 @@
 #SBATCH --error task-%j.err
 #SBATCH --time 0:1:0
 
-# the following line is for task c
+# The following line is only for task c
 if [ -n "$LIB_" ]; then
 	echo "lib path: $LIB_"
 	export LD_LIBRARY_PATH=$LIB_/x86:$LD_LIBRARY_PATH
