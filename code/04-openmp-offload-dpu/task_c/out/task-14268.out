@@ -2,8 +2,3 @@ lib path: /nethome/mbenito6/tasks/task_c/build
 cmd : ./task_c/build/shared
 [08:33:27:277368][713930][DOCA][INF][bf.cpp:278][connect] going to connect....
 [08:33:27:294579][713930][DOCA][INF][bf.cpp:284][connect] connected
-[08:33:27:856096][713930][DOCA][ERR][linux_devx_adapter.cpp:493][destroy_pd] devx_obj_destroy failed for pd_handle=0x56493726dee0. errno=EINVAL (22)
-[08:33:27:856111][713930][DOCA][ERR][protection_domain.cpp:69][destroy] PD 0x56493726dec0: Failed to destroy PD. err=DOCA_ERROR_DRIVER
-[08:33:27:856116][713930][DOCA][ERR][doca_dev.cpp:101][internal_dev_destroy] Device 0x56493720ef00: Failed to destroy device: failed to deallocate PD for dev mlx5_0. err=DOCA_ERROR_DRIVER
-[08:33:27:856119][713930][DOCA][ERR][doca_dev.cpp:134][dev_put] Device 0x56493720ef00: Failed to destroy device. err=DOCA_ERROR_IN_USE
-[08:33:27:856122][713930][DOCA][ERR][doca_dev.cpp:1016][doca_dev_close] Device 0x56493720ef00: Failed to close local device. err=DOCA_ERROR_IN_USE

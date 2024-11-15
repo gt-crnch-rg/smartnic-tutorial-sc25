@@ -1,7 +1,2 @@
 [07:53:48:895593][712817][DOCA][INF][bf.cpp:278][connect] going to connect....
 [07:53:48:908897][712817][DOCA][INF][bf.cpp:284][connect] connected
-[07:53:48:923796][712817][DOCA][ERR][linux_devx_adapter.cpp:493][destroy_pd] devx_obj_destroy failed for pd_handle=0x5588d85a3240. errno=EINVAL (22)
-[07:53:48:923812][712817][DOCA][ERR][protection_domain.cpp:69][destroy] PD 0x5588d85a3220: Failed to destroy PD. err=DOCA_ERROR_DRIVER
-[07:53:48:923820][712817][DOCA][ERR][doca_dev.cpp:101][internal_dev_destroy] Device 0x5588d8544260: Failed to destroy device: failed to deallocate PD for dev mlx5_0. err=DOCA_ERROR_DRIVER
-[07:53:48:923826][712817][DOCA][ERR][doca_dev.cpp:134][dev_put] Device 0x5588d8544260: Failed to destroy device. err=DOCA_ERROR_IN_USE
-[07:53:48:923831][712817][DOCA][ERR][doca_dev.cpp:1016][doca_dev_close] Device 0x5588d8544260: Failed to close local device. err=DOCA_ERROR_IN_USE
