@@ -2,13 +2,13 @@
 
 ### Compilation
 
-This step is only needed if a previous compilation of the task was not done.
+This step is only required if the task has not been compiled previously
 
 ```
 [user@rg-login]$ cd 04-openmp-offload-dpu
 #Note you should select a number between 1 and 4 for node number
 $ ./request_bf3_heterogenous_slurm_job.sh 4
-#The rest of the following instructions assume that the node `4` was requested.
+#The rest of the following instructions assume that the node 4 was requested.
 [user@dash4]$ source /etc/profile
 [user@dash4]$ module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
 [user@dash4]$ module load odos-dpu cmake
@@ -30,4 +30,4 @@ $ ./request_bf3_heterogenous_slurm_job.sh 4
 
 ### Output
 
-You can take a look to the generated output files or see `out/*` for reference outputs. Note that in manual execution `out/manual-service.out` OpenMP spawn 16 messages (BF3's #cores) while in `service-14261.out` there are only 8 (restricted in run_service via --cpus-per-task parameter).
+You can check the generated output files or refer to `out/*` for the reference outputs. Note that in the manual execution, `out/manual-service.out` shows 16 messages (BF3's #cores), while `service-14261.out` shows only 8m as it is restricted by `--cpus-per-task` parameter in [run_service.sh](../run_service.sh).

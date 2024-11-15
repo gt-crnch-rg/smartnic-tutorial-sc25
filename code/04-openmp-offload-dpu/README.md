@@ -7,26 +7,26 @@ This code sample demonstrates how to compile ODOS-enabled applications with the 
 * [Shared libraries](./task_c) - executable: shared
 * [Asynchonous TCP](./task_d) - executable: net_accel
 
-Please, look into example folders for further details about running them. However, the general instructions are presented below.
+Please refer to the example folders for further details on how to run them. However, the general instructions are provided below.
 
 ## Manual process
 
 ### Request resources
 
-1) First you need to request an interactive node to compile the example code and run it. We highly recommend that you open two terminals or use a screen/tmux session to allow logging into the host and BF3 nodes.
+First you need to request an interactive node to compile the example code and run it. We highly recommend that you open two terminals or use a screen/tmux session to allow logging into the host and BF3 nodes.
 
 ```
 [user@rg-login]$ cd 04-openmp-offload-dpu
 #Note you should select a number between 1 and 4 for node number
 $ ./request_bf3_heterogenous_slurm_job.sh 3
-#The rest of the instructions assume that the node `3` was requested.
+#The rest of the instructions assume that the node 3 was requested.
 ```
 
 ### Compile a sample
 
-Assume that `task` is the `code/04-openmp-offload-dpu/task_*` folder in which one you want to work.
+Assume that `task` refers to `code/04-openmp-offload-dpu/task_*` folder that you want to work with.
 
-Once you have a session and two terminal sessions, you need to load the environment host system.
+Once you have a session and two terminal sessions, you need to load the environment the systems.
 
 Terminal 1 (Host):
 
@@ -50,7 +50,7 @@ Terminal 2 (BF3):
 
 ### Running the sample
 
-To run the sample code, you need to run the DOCA OpenMP service in BF system and the compiled code on host side.
+To run the sample code, you need to start the DOCA OpenMP service on the BF system and execute the compiled code on the host side.
 
 Terminal 2 (BF3):
 
@@ -66,11 +66,11 @@ Terminal 1 (Host):
 
 ### Wrap-up
 
-Kill the service on the BF3 system and you can pass to the next task folder and start again from [compilation](### Compile a sample).
+Kill the service on the BF3 system and you can move on to the next task folder and start again from [compilation](### Compile a sample).
 
 ## Automated compilation and running using SLURM
 
-There are two scripts provided for automated compilation of all tasks and the execution of a task.
+Two scripts are provided for the automated compilation of all tasks and the execution of a task.
 
 ### Compilation
 
@@ -78,7 +78,7 @@ There are two scripts provided for automated compilation of all tasks and the ex
 [user@rg-login]$ cd 04-openmp-offload-dpu
 #Note you should select a number between 1 and 4 for node number
 $ ./request_bf3_heterogenous_slurm_job.sh 3
-#The rest of the following instructions assume that the node `3` was requested.
+#The rest of the following instructions assume that the node 3 was requested.
 [user@dash3]$ source /etc/profile
 [user@dash3]$ module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
 [user@dash3]$ module load odos-dpu cmake
@@ -89,7 +89,7 @@ $ ./request_bf3_heterogenous_slurm_job.sh 3
 
 ### Execution
 
-The execution script request the nodes itself.
+The execution script requests the nodes itself.
 
 ```
 # This env variable declaration is needed for task_c
