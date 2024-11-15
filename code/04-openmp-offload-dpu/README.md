@@ -36,7 +36,7 @@ Terminal 1 (Host):
 #Load ODOS and cmake
 [user@dash3]$ module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
 [user@dash3]$ module load odos-dpu cmake
-[user@dash3]$ rm -rf build && mkdir -p build && cd build && cmake .. && make && cd ..
+[user@dash3]$ rm -rf build ; mkdir build && cd build && cmake .. && make && cd ..
 ```
 
 Terminal 2 (BF3):

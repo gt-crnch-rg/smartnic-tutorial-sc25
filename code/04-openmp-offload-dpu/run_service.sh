@@ -9,7 +9,7 @@ NODE=$1
 
 sed -i 's/--nodelist .*/--nodelist dash'$NODE'/g' run_task.sh
 
-sbatch --export=NONE <<EOT
+sbatch --export=LIB_ <<EOT
 #!/bin/bash
 #SBATCH --reservation sc24_tutorial
 #SBATCH --partition rg-nextgen-hpc

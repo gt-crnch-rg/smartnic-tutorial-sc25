@@ -2,7 +2,7 @@
 
 ### Compilation
 
-This step is only required if the task has not been compiled previously
+This step is only needed if a previous compilation of the task was not done.
 
 ```
 [user@rg-login]$ cd 04-openmp-offload-dpu
@@ -12,8 +12,8 @@ $ ./request_bf3_heterogenous_slurm_job.sh 2
 [user@dash2]$ source /etc/profile
 [user@dash2]$ module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
 [user@dash2]$ module load odos-dpu cmake
-[user@dash2]$ ./clean.sh
-[user@dash2]$ ./compile.sh
+[user@dash2]$ cd task_a
+[user@dash2]$ rm -rf build ; mkdir build && cd build && cmake .. && make && cd ..
 [user@dash2]$ exit
 ```
 
