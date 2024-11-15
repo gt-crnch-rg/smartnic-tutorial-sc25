@@ -5,7 +5,6 @@ This code sample demonstrates how to compile ODOS-enabled applications with the 
 * [Hello World](./task_a) - executable: hello
 * [OpenMP Parallel feature](./task_b) - executable: omp_parallel
 * [Shared libraries](./task_c) - executable: shared
-* [Asynchonous TCP](./task_d) - executable: net_accel
 
 Please refer to the example folders for further details on how to run them. However, the general instructions are provided below.
 
