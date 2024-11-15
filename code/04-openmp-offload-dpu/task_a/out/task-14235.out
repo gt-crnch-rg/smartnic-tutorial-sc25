@@ -1,0 +1,9 @@
+cmd : ./task_a/build/hello
+Hi Folks! from dash4.crnch.gatech.edu
+[07:10:17:325126][709951][DOCA][INF][bf.cpp:278][connect] going to connect....
+[07:10:17:341832][709951][DOCA][INF][bf.cpp:284][connect] connected
+[07:10:17:358122][709951][DOCA][ERR][linux_devx_adapter.cpp:493][destroy_pd] devx_obj_destroy failed for pd_handle=0x563d81f60ee0. errno=EINVAL (22)
+[07:10:17:358137][709951][DOCA][ERR][protection_domain.cpp:69][destroy] PD 0x563d81f60ec0: Failed to destroy PD. err=DOCA_ERROR_DRIVER
+[07:10:17:358143][709951][DOCA][ERR][doca_dev.cpp:101][internal_dev_destroy] Device 0x563d81effef0: Failed to destroy device: failed to deallocate PD for dev mlx5_0. err=DOCA_ERROR_DRIVER
+[07:10:17:358148][709951][DOCA][ERR][doca_dev.cpp:134][dev_put] Device 0x563d81effef0: Failed to destroy device. err=DOCA_ERROR_IN_USE
+[07:10:17:358152][709951][DOCA][ERR][doca_dev.cpp:1016][doca_dev_close] Device 0x563d81effef0: Failed to close local device. err=DOCA_ERROR_IN_USE

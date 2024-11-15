@@ -1,0 +1,8 @@
+cmd : ./task_b/build/omp_parallel
+[07:54:31:288653][712919][DOCA][INF][bf.cpp:278][connect] going to connect....
+[07:54:31:303156][712919][DOCA][INF][bf.cpp:284][connect] connected
+[07:54:31:320381][712919][DOCA][ERR][linux_devx_adapter.cpp:493][destroy_pd] devx_obj_destroy failed for pd_handle=0x56068dc04ed0. errno=EINVAL (22)
+[07:54:31:320394][712919][DOCA][ERR][protection_domain.cpp:69][destroy] PD 0x56068dc04eb0: Failed to destroy PD. err=DOCA_ERROR_DRIVER
+[07:54:31:320398][712919][DOCA][ERR][doca_dev.cpp:101][internal_dev_destroy] Device 0x56068dba5ef0: Failed to destroy device: failed to deallocate PD for dev mlx5_0. err=DOCA_ERROR_DRIVER
+[07:54:31:320401][712919][DOCA][ERR][doca_dev.cpp:134][dev_put] Device 0x56068dba5ef0: Failed to destroy device. err=DOCA_ERROR_IN_USE
+[07:54:31:320404][712919][DOCA][ERR][doca_dev.cpp:1016][doca_dev_close] Device 0x56068dba5ef0: Failed to close local device. err=DOCA_ERROR_IN_USE
