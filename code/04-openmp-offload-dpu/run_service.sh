@@ -26,6 +26,8 @@ if [ -n "$LIB_" ]; then
         export LD_LIBRARY_PATH=$LIB_/aarch64:$LD_LIBRARY_PATH
 fi
 
+export OMP_NUM_THREADS=\$SLURM_CPUS_PER_TASK
+
 # Loading modules
 module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
 module load odos-dpu
