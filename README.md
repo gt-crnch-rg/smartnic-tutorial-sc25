@@ -24,7 +24,8 @@ Please take our survey using [this Mentimeter link](https://www.menti.com/aljr5b
 Supporting Contributors:
 
 * Clay Hughes [(Sandia National Laboratories)]()
-* Muhammad Usman, Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
+* Muhammad Usman [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
+* Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es)
 * Oscar Hernandez [(Oak Ridge National Laboratory)](ornl.gov)
 * Sara Karamati [(Georgia Tech)](https://hpcgarage.org/wp/)
 
