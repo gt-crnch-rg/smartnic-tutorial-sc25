@@ -18,6 +18,7 @@ sbatch --export=LIB_ <<EOT
 #SBATCH --error service-%j.err
 #SBATCH --cpus-per-task 8
 #SBATCH --time 0:10:00
+#SBATCH --exclusive
 
 # The following line is only for task c
 if [ -n "$LIB_" ]; then

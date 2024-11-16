@@ -6,6 +6,7 @@
 #SBATCH --output task-%j.out
 #SBATCH --error task-%j.err
 #SBATCH --time 0:1:0
+#SBATCH --exclusive
 
 # The following line is only for task c
 if [ -n "$LIB_" ]; then
