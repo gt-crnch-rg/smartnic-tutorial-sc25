@@ -14,10 +14,10 @@ Please take our survey using [this Mentimeter link](https://www.menti.com/aljr5b
 
 ## Presenters
 
-* Richard Graham [(NVIDIA)](nvidia.com)
-* Oscar Hernandez [(Oak Ridge National Laboratory)](ornl.gov)
+* Richard Graham [(NVIDIA)](https://www.nvidia.com/)
+* Oscar Hernandez [(Oak Ridge National Laboratory)](https://www.ornl.gov/)
 * Antonio Peña [(Barcelona Supercomputing Center)](https://www.bsc.es/pena-antonio)
-* Yong Qin [(NVIDIA)](nvidia.com)
+* Yong Qin [(NVIDIA)](https://www.nvidia.com/)
 * Jeffrey Young [(Georgia Institute of Technology)](https://crnch-rg.cc.gatech.edu/)
 * Richard Vuduc [(Georgia Institute of Technology)](https://crnch-rg.cc.gatech.edu/)
 
