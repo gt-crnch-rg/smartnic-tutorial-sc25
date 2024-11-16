@@ -8,7 +8,7 @@ This code sample demonstrates how to compile ODOS-enabled applications with the 
 
 Please refer to the example folders for further details on how to run them. However, the general instructions are provided below.
 
-## Automated compilation and running using SLURM (Recomended way)
+## Automated compilation and running using SLURM (Recommended way)
 
 Two scripts are provided for the automated compilation of all tasks and the execution of a task.
 
