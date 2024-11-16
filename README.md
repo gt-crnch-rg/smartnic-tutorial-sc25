@@ -26,7 +26,7 @@ Supporting Contributors:
 * Clay Hughes [(Sandia National Laboratories)]()
 * Muhammad Usman [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
 * Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es)
-* Oscar Hernandez [(Oak Ridge National Laboratory)](ornl.gov)
+* Oscar Hernandez [(Oak Ridge National Laboratory)](https://www.ornl.gov/)
 * Sara Karamati [(Georgia Tech)](https://hpcgarage.org/wp/)
 
 **Abstract:** The past few years have witnessed an increased support for programmable network adapters, known as “Smart-NICs", that offer additional functionalities beyond standard packet processing capabilities. These devices often feature programmable lightweight processing cores, FPGAs, and even CPU- and GPU-based platforms capable of running separate operating systems. Their primary target has been data center operations, such as infrastructure management, packet filtering, and I/O acceleration, but are increasingly being explored for high-performance computing (HPC) application acceleration.
