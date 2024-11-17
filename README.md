@@ -27,7 +27,7 @@ Supporting Contributors:
 * Clay Hughes [(Sandia National Laboratories)](https://sc24.conference-program.com/presenter/?uid=142083)
 * Muhammad Usman [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
 * Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es)
-* Sergio Iserte [(Barcelona Supercomputing Center)]([https://www.bsc.es](https://www.bsc.es/iserte-agut-sergio)) 
+* Sergio Iserte [(Barcelona Supercomputing Center)](https://www.bsc.es/iserte-agut-sergio)) 
 * Sara Karamati [(Georgia Institute of Technology)](https://hpcgarage.org/wp/)
 * Will Powell [(Georgia Institute of Technology)](https://www.cc.gatech.edu/people/william-powell)
 
