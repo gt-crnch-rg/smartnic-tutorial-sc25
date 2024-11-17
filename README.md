@@ -39,7 +39,7 @@ Please note that you must register for the SC24 tutorial track and attend this t
 
 [Register here](https://sc24.supercomputing.org/attend/registration)
 
-## Tentative Agenda (Note this may change!)
+## Agenda
 
 | Time          | Topic                                   | Presenters |
 | :-----------: | :-------------------------------------- | :--------: |
@@ -56,6 +56,8 @@ Please note that you must register for the SC24 tutorial track and attend this t
 ## Hands-on Examples
 
 Please see the examples under the `/code` folder. The tutorial slides will have additional details on running and interacting with each example.
+
+See [this Google Doc](https://docs.google.com/document/d/1SHleSgEKzycFDrLUNEYAbvQJKfNafu85n4f1gSbAgII/edit?usp=sharing) for instructions on using GitHub authentication to access the testbed and start working with the examples!
 
 ## Slides
 
