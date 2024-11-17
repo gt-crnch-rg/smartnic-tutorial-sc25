@@ -23,11 +23,13 @@ Please take our survey using [this Mentimeter link](https://www.menti.com/alxmwy
 
 Supporting Contributors:
 
-* Clay Hughes [(Sandia National Laboratories)]()
+* Aaron Jezghani [(Georgia Institute of Technology)](https://research.gatech.edu/people/aaron-jezghani)
+* Clay Hughes [(Sandia National Laboratories)](https://sc24.conference-program.com/presenter/?uid=142083)
 * Muhammad Usman [(Barcelona Supercomputing Center)](https://www.bsc.es/usman-muhammad)
 * Mariano Benito [(Barcelona Supercomputing Center)](https://www.bsc.es)
-* Oscar Hernandez [(Oak Ridge National Laboratory)](https://www.ornl.gov/)
-* Sara Karamati [(Georgia Tech)](https://hpcgarage.org/wp/)
+* Sergio Iserte [(Barcelona Supercomputing Center)]([https://www.bsc.es](https://www.bsc.es/iserte-agut-sergio)) 
+* Sara Karamati [(Georgia Institute of Technology)](https://hpcgarage.org/wp/)
+* Will Powell [(Georgia Institute of Technology)](https://www.cc.gatech.edu/people/william-powell)
 
 **Abstract:** The past few years have witnessed an increased support for programmable network adapters, known as “Smart-NICs", that offer additional functionalities beyond standard packet processing capabilities. These devices often feature programmable lightweight processing cores, FPGAs, and even CPU- and GPU-based platforms capable of running separate operating systems. Their primary target has been data center operations, such as infrastructure management, packet filtering, and I/O acceleration, but are increasingly being explored for high-performance computing (HPC) application acceleration.
 
@@ -44,7 +46,7 @@ Please note that you must register for the SC24 tutorial track and attend this t
 | 8:30 - 8:40   | Introduction and Attendee Survey | Jeff |
 | 8:40 - 9:10   | SmartNIC Introduction and Overview | Rich G / Jeff |
 | 9:10 - 9:20   | Programming approaches for HPC with SmartNICs | Jeff |
-| 9:20- 9:35    | Programming approaches for HPC with SmartNICs | Oscar |
+| 9:20- 9:35    | SmartNIC Research – State of the Art | Oscar |
 | 9:35 - 10:00  | DOCA MPI Implementations; Security Topics | Rich G / Yong |
 | 10:00 - 10:30 | **BREAK** | |
 | 10:30 - 11:10 | OpenMP offload to the SmartNIC; ODOS Demos | Antonio |
