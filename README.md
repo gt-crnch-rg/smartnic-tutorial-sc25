@@ -10,7 +10,7 @@ Tutorial on SmartNICs for Supercomputing 2024
 
 ## Mentimeter Audience Survey
 
-Please take our survey using [this Mentimeter link](https://www.menti.com/aljr5bmzi3wc).
+Please take our survey using [this Mentimeter link](https://www.menti.com/alxmwy7njwi5).
 
 ## Presenters
 
