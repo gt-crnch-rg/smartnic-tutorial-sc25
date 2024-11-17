@@ -61,4 +61,4 @@ See [this Google Doc](https://docs.google.com/document/d/1SHleSgEKzycFDrLUNEYAbv
 
 ## Slides
 
-Please see the tutorial slides under the [slides folder]().
+Please see the tutorial slides under the [slides folder](https://github.com/gt-crnch-rg/smartnic-tutorial-sc24/blob/b0ca6986e62e50f458a15ba1bfa1fe3be914f313/slides/smartnic-tutorial-supercomputing-2024-slides.pdf).
