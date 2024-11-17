@@ -29,6 +29,7 @@ fi
 export OMP_NUM_THREADS=\$SLURM_CPUS_PER_TASK
 
 # Loading modules
+source /etc/profile
 module use /projects/tools/x86_64/ubuntu-22.04/modulefiles/
 module load odos-dpu
 
