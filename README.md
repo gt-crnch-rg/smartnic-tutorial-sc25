@@ -4,7 +4,7 @@ Tutorial on SmartNICs for Supercomputing 2025
 
 **Held on**: November 16th, 1:30 PM - 5:00 PM Central Standard Time; Room 122
 
-[Event website and Program](https://sc24.conference-program.com/presentation/?id=tut133&sess=sess409https://sc25.conference-program.com/presentation/?id=tut169&sess=sess274)
+[Event website and Program](https://sc25.conference-program.com/presentation/?id=tut169&sess=sess274)
 
 ![BlueField 3 SmartNIC](https://github.com/gt-crnch-rg/smartnic-tutorial-sc25/blob/2b33a3f47e94bf85083d54571c9a110bd97f93bc/fig/smartnic_bf3.jpg)
 
@@ -46,5 +46,6 @@ Please note that you must register for the SC25 tutorial track and attend this t
 To be added!
 
 ## Slides
+
 
 Please see the tutorial slides under the [slides folder] after the tutorial!
