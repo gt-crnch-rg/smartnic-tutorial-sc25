@@ -1,4 +1,0 @@
-lib path: /nethome/mbenito6/tasks/task_c/build
-cmd : ./task_c/build/shared
-[08:33:27:277368][713930][DOCA][INF][bf.cpp:278][connect] going to connect....
-[08:33:27:294579][713930][DOCA][INF][bf.cpp:284][connect] connected

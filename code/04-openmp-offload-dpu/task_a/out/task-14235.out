@@ -1,4 +1,0 @@
-cmd : ./task_a/build/hello
-Hi Folks! from dash4.crnch.gatech.edu
-[07:10:17:325126][709951][DOCA][INF][bf.cpp:278][connect] going to connect....
-[07:10:17:341832][709951][DOCA][INF][bf.cpp:284][connect] connected

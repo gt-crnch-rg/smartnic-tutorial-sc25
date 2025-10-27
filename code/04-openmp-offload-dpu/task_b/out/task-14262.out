@@ -1,3 +1,0 @@
-cmd : ./task_b/build/omp_parallel
-[07:54:31:288653][712919][DOCA][INF][bf.cpp:278][connect] going to connect....
-[07:54:31:303156][712919][DOCA][INF][bf.cpp:284][connect] connected
