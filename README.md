@@ -37,12 +37,12 @@ Please note that you must register for the SC25 tutorial track and attend this t
 
 
 | Time (CST)​  | Topic​   | Presenters         |
-| ------------ | ----------------------------------------------------------------------------------- | ------------------ |
-| 1:30 - 1:40​ | Introduction and Attendee Survey​   |    |
-| 1:40 - 2:00​ | SmartNIC and DPU Background and Overview​    | Jeff, Elie​        |
+| ---------------- | ----------------------------------------------------------------------------------- | ------------------ |
+| 1:30-1:40​ | Introduction and Attendee Survey​ |    |
+| 1:40-2:00​ | SmartNIC and DPU Background and Overview​    | Jeff, Elie​        |
 | 2:00-2:20​   | SmartNIC Applications and Use Cases  | Jeff, Oscar​       |
-| 2:20 - 3:00​ | SmartNIC SW Infrastructure – HPC Programming Approaches: ​MPI and OpenMP Offload​ | Rich, Toni​   |
-| 3:00 - 3:30​ | BREAK​    | |
+| 2:20-3:00​ | SmartNIC SW Infrastructure – HPC Programming Approaches: ​MPI and OpenMP Offload​ | Rich, Toni​   |
+| 3:00-3:30​ | BREAK​    | |
 | 3:30-4:15​   | SmartNIC SW Infrastructure – APIs and Frameworks: ​DPA Programming, DOCA and P4​  | Rich, Elie, Jorge​ |
 | 4:15-5:00​   | Hands on with DOCA and P4, DPA examples | All​  |
 | 4:45​        | Tutorial Survey /Wrap-up​ | |
