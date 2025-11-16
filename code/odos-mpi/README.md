@@ -8,21 +8,7 @@
 
 ## Accessing Nodes
 
-Log in the system using credentials in the [sheet](https://docs.google.com/spreadsheets/d/1-tSZ6L0IcdD1Gn2FcMJeT2euWquRxyOD1YoBo517N_M/edit?usp=sharing).
-
-Assign yourself a node by adding your name to the sheet.
-
-Login to the proxy node
-```
-ssh rdmaworkshopXX@155.248.177.18
-```
-replace XX with number of the user assigned to you in sheet.
-
-Login to the cluster node from there
-```
-ssh gw.hpcadvisorycouncil.com
-```
-
+Follow the instructions for the HPC-AI testbed in the [Hands-On Guide](https://docs.google.com/document/d/1MGh4E9ZYpvfhfVDOPbMcS3OOPDHjK2VvkLQIsiNTUrM/edit?usp=sharing)
 
 ## Package
 Copy your package folder
