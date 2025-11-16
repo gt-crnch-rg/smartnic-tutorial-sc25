@@ -39,17 +39,23 @@ Please note that you must register for the SC25 tutorial track and attend this t
 | Time (CST)​  | Topic​   | Presenters         |
 | ---------------- | ----------------------------------------------------------------------------------- | ------------------ |
 | 1:30-1:40​ | Introduction and Attendee Survey​ |    |
-| 1:40-2:00​ | SmartNIC and DPU Background and Overview​    | Jeff, Elie​        |
-| 2:00-2:20​   | SmartNIC Applications and Use Cases  | Jeff, Oscar​       |
+| 1:40-2:00​ | SmartNIC and DPU Background and Overview​    | Jeff​        |
+| 2:00-2:20​   | SmartNIC Applications and Use Cases  | Elie,  Oscar​       |
 | 2:20-3:00​ | SmartNIC SW Infrastructure – HPC Programming Approaches: ​MPI and OpenMP Offload​ | Rich, Toni​   |
 | 3:00-3:30​ | BREAK​    | |
-| 3:30-4:15​   | SmartNIC SW Infrastructure – APIs and Frameworks: ​DPA Programming, DOCA and P4​  | Rich, Elie, Jorge​ |
+| 3:30-4:15​   | SmartNIC SW Infrastructure – APIs and Frameworks: ​DPA Programming, DOCA and P4​  | Rich, Elie​ |
 | 4:15-5:00​   | Hands on with DOCA and P4, DPA examples | All​  |
 | 4:45​        | Tutorial Survey /Wrap-up​ | |
 
 ## Hands-on Examples
 
-To be added the day of the event!
+We have the following examples we will be working through in the tutorial:
+
+- DOCA examples - from USC Netlab training using the CRNCH RG testbed
+- P4 examples - from USC Netlab training using the CRNCH RG testbed
+- ODOS examples - from BSC using the HPC-AI testbed
+
+For instructions on how to log in to these clusters and run the examples, please see this linked [Google Doc](https://docs.google.com/document/d/1MGh4E9ZYpvfhfVDOPbMcS3OOPDHjK2VvkLQIsiNTUrM/edit?usp=sharing).
 
 ## Slides
 
