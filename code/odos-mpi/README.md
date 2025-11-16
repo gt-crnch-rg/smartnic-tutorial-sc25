@@ -13,11 +13,12 @@ Follow the instructions for the HPC-AI testbed in the [Hands-On Guide](https://d
 ## Package
 Copy your package folder
 ```
-cp /var/tmp/mpi-odos-pkg/ ~/
+cp /var/tmp/mpi-odos-pkg.zip ./
+unzip mpi-odos-pkg.zip
 ```
 Move into the tutorial directorey
 ```
-cd ~/mpi-odos-pkg/tutorial/
+mv /var/tmp/tutorial_r2 ./mpi-odos-pkg/ && cd ./mpi-odos-pkg/tutorial_r2
 ```
 
 # Compiling
